@@ -38,16 +38,16 @@ nconf
   // 4. Defaults
   .defaults({
     // Typically you will create a bucket with the same name as your project ID.
-    CLOUD_BUCKET: '',
+    CLOUD_BUCKET: 'cdub', // @eugene: Named the bucket specified.
 
     // dataBackend can be 'datastore', 'cloudsql', or 'mongodb'. Be sure to
     // configure the appropriate settings for each storage engine below.
     // If you are unsure, use datastore as it requires no additional
     // configuration.
-    DATA_BACKEND: 'datastore',
+    DATA_BACKEND: 'datastore', // @eugene: left alone, works. Would like to experiment with Mongo
 
     // This is the id of your project in the Google Cloud Developers Console.
-    GCLOUD_PROJECT: '',
+    GCLOUD_PROJECT: 'college-weekly', // @eugene: Set project ID used
 
     // MongoDB connection string
     // https://docs.mongodb.org/manual/reference/connection-string/

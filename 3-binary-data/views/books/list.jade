@@ -24,7 +24,7 @@ block content
     .media
       a(href="/books/#{book.id}")
         .media-left
-            img(src=book.imageUrl || "http://placekitten.com/g/128/192")
+            img(src=book.imageUrl || "http://placekitten.com/g/128/192" style="max-width: 300px;") 
         .media-body
           h4= book.title
           p= book.author
